@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main(){
-    printf("Hello\tWorld ....Hello!");
-    printf("hello %%");
+
+    printf("Hello World!\nWelcome To the C Programming...\t");
+    printf("\\");
+    printf("1000%%");
     return 0;
 }
