@@ -1,22 +1,25 @@
 #include<stdio.h>
 
 int main(){
-
-    int first,second,third;
-    scanf("%d %d %d",&first,&second,&third);
-    if(first <= second && second <= third){
-        printf("%d ",first);
-    }else if (second <= first && second <= third){
-        printf("%d ",second);
+    // min 
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if(a <= b && a <= c){
+        printf("%d ",a);
+    }else if(b <= a && b <= c){
+        printf("%d ",b);
     }else{
-        printf("%d ",third);
+        printf("%d ",c);
     }
-    if(first >= second && second >= third){
-        printf("%d\n",first);
-    }else if (second >= first && second >= third){
-        printf("%d\n",second);
+    
+
+    // max s
+    if(a >= b && b >= c){
+        printf("%d\n",a);
+    }else if (b >= a && b >= c){
+        printf("%d\n",b);
     }else{
-        printf("%d\n",third);
+        printf("%d\n",c);
     }
     return 0;
 }
