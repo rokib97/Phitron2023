@@ -9,6 +9,7 @@ int main(){
     // {
     //     printf("%c\n",a[i]);
     // }
+    
 
     char ch[]="Rokib\0";
     printf("%d",sizeof(ch)/sizeof(char));
