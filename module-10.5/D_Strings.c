@@ -13,7 +13,5 @@ int main(){
     a[0] = b[0];
     b[0] = temp;
     printf("%s %s",a,b);
-
-
     return 0;
 }
